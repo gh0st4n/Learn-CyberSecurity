@@ -1,0 +1,245 @@
+{
+  "main": {
+    "id": "0f69dc9248fe494b",
+    "type": "split",
+    "children": [
+      {
+        "id": "ce8e0df2f939195d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd8f6ca1e4e9d903",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00Basic/01introduction/info/pasive/02Netcraft.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "02Netcraft"
+            }
+          }
+        ]
+      },
+      {
+        "id": "591bc77d4155c49d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1303c6e3cd0322ae",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8490fd3b890ac9b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "0737020ed9c47ebc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3bf9ca496f326047",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "9c86d42ff3b14d90",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "d082f2dc04ce3833",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5fc58a38a10a6305",
+    "type": "split",
+    "children": [
+      {
+        "id": "69be323d69a7fe78",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4cd1af733c25c094",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for index"
+            }
+          },
+          {
+            "id": "5a6553de4b74b217",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "index.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from index"
+            }
+          },
+          {
+            "id": "7920d98f6485ced3",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "09f1120b38984c34",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "fa59db95a3b01ba2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "index.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of index"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "bd8f6ca1e4e9d903",
+  "lastOpenFiles": [
+    "00Basic/01introduction/script/whois/index.md",
+    "00Basic/01introduction/info/active/00Whois.md",
+    "00Basic/01introduction/script/Dirb/index.md",
+    "00Basic/01introduction/info/active/01Dirb.md",
+    "info/active/02Dirseacrh.md",
+    "info/active",
+    "info",
+    "00Basic/01introduction/info/pasive/01GDorking.md",
+    "00Basic/01introduction/script/Netcraft/index.md",
+    "00Basic/01introduction/info/pasive/02Netcraft.md",
+    "00Basic/01introduction/script/GDork/GoogleDorking.md",
+    "00Basic/01introduction/info/pasive/00Shodan.md",
+    "00Basic/01introduction/script/GDork/index.md",
+    "00Basic/01introduction/03Step-Pentest.md",
+    "00Basic/01introduction/04Information-Gathering.md",
+    "index.md",
+    "().md",
+    "00Basic/01introduction/02Profesi.md",
+    "00Basic/01introduction/01Introduction.md",
+    "00Basic/index.md",
+    "00Basic/01introduction/script/Dirb/simpledirb.py",
+    "00Basic/01introduction/script/Dirb",
+    "00Basic/01introduction/script/GDork/dork.py~",
+    "00Basic/01introduction/script/whois/python-whois.py~",
+    "00Basic/01introduction/script/whois/whois.py~",
+    "00Basic/01introduction/script/Netcraft/netcraft_lite.py",
+    "00Basic/01introduction/script/Netcraft",
+    "00Basic/01introduction/info/active/06wpscan.md",
+    "00Basic/01introduction/info/active/05Nmap.md",
+    "00Basic/01introduction/info/active/04DNS.md",
+    "00Basic/01introduction/info/active/03Dirhunt.md",
+    "00Basic/01introduction/info/active/02Dirsearch.md",
+    "00Basic/01introduction/script/GDork/dork.py",
+    "00Basic/01introduction/info/active/03.md",
+    "URL-Gambar.md",
+    "README.md"
+  ]
+}

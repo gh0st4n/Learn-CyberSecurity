@@ -1,7 +1,14 @@
 # Pengenalan Cyber Security
 
-## Pengenalana
+## Pengenalan
 Cyber security adalah praktik melindungi sistem, jaringan, program, dan data dari serangan digital (cyber attacks) yang bertujuan mengakses, mengubah, atau menghancurkan informasi sensitif, memeras uang, atau mengganggu proses operasional.
+
+## Fakta Cyber Security
+###### 1. Pada Pertengahan Awal 2019 tercatat 4.1 Miliar Data Bocor
+###### 2. Hacker Menyerang Setiap 39 Detik, Rata-Rata 2.244 Detik/Hari
+###### 3. 57% Serangan Terjadi Melalui Social Engineering atau Phising Attacks
+###### 4. Kerugian Data Bocor Paling Tinggi Industri adalah Industri Kesehatan dengan Nilai $6.5 Million
+###### Kerugian akibat Kebocoran Data di Dunia sekitar $3.9 Million dan Kerugian yang Dialami United States $8.2 Million
 
 ## Real-Time Attack Cyber Security
 1. [CheckPoint](https://threatmap.checkpoint.com/)
@@ -31,3 +38,13 @@ Pemula atau pelajar yang baru mempelajari teknik peretasan.
 Sering kali pemula atau peretas amatir yang membalas dendam.
 - **Insider Threat (Orang Dalam)**:
 Karyawan atau pihak internal yang memiliki akses sah dan menyalahgunakannya. 
+
+[Next](02Profesi.md)
+
+---
+
+<div align="center">
+
+[@T4n-Labs](https://t4n-labs.github.io/site) · [@Gh0sT4n](https://gh0st4n.github.io/site)
+
+</div>
