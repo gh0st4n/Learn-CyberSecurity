@@ -17,6 +17,12 @@
 		- [Code Python](script/whois/index.md)
 	- [Dirb](info/active/01Dirb.md)
 		- [Code Python](script/Dirb/index.md)
+	- [Dirsearch](info/active/02Dirsearch.md)
+	- [Dirhunt](info/active/03Dirhunt.md)
+	- [DNS](info/active/04DNS.md)
+		- [Code Python](script/DNS/index.md)
+	- [NMAP](info/active/05Nmap.md)
+	- [WPScan](info/active/06wpscan.md)
 
 ## Network Basic
 

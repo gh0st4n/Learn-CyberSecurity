@@ -134,9 +134,9 @@ inurl:".php?cmd=" site:target.com
 
 > **Catatan Penting:** Google Dorking hanya boleh dilakukan pada target yang **Anda miliki** atau telah mendapatkan **izin tertulis** untuk diuji. Penggunaan tanpa izin melanggar hukum dan termasuk aktivitas ilegal.
 
-## Website, Script Python Sederhana & Cheatseet
+## Website, Script Python & Cheatseet
 - [ExploitDB GDork](https://www.exploit-db.com/google-hacking-database)
-- [Script Simple Python](script/GDork/index.md)
+- [Script Python](script/GDork/index.md)
 - [GoogleDorking](script/GDork/GoogleDorking.md)
 
 [Previously](00Shodan.md) | [Next](02Netcraft.md)

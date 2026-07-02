@@ -1,4 +1,3 @@
-
 # Netcraft
 
 ## Apa Itu Netcraft?
@@ -9,7 +8,7 @@ Netcraft terkenal dengan **layanan "What's that site running?"** yang bisa mengu
 ## Teknik-Teknik yang Digunakan Netcraft
 
 ### 1. **DNS Enumeration & Zone Transfer**
-Netcraft mengumpulkan data dari query DNS publik, termasuk mencoba *zone transfer* (AXFR) — teknik yang jarang berhasil tapi sangat berharga jika server DNS target miskonfigurasi.
+Netcraft mengumpulkan data dari query DNS publik, termasuk mencoba *zone transfer* (AXFR) teknik yang jarang berhasil tapi sangat berharga jika server DNS target miskonfigurasi.
 
 ### 2. **HTTP Header Fingerprinting**
 Dengan mengirim request HTTP ke server target, Netcraft menganalisis header respons seperti:
@@ -18,13 +17,13 @@ Dengan mengirim request HTTP ke server target, Netcraft menganalisis header resp
 - `Set-Cookie` → mengungkap session handling dan backend framework.
 
 ### 3. **SSL/TLS Certificate Transparency Log Analysis**
-Netcraft memindai database **Certificate Transparency (CT) logs** untuk menemukan sertifikat SSL yang diterbitkan untuk domain target — termasuk subdomain tersembunyi.
+Netcraft memindai database **Certificate Transparency (CT) logs** untuk menemukan sertifikat SSL yang diterbitkan untuk domain target termasuk subdomain tersembunyi.
 
 ### 4. **Active Web Crawling & Site Relationship Graph**
 Netcraft secara aktif merayapi website target dan menganalisis tautan, IP address, dan relasi antar domain untuk membangun peta infrastruktur.
 
 ### 5. **BGP & IP Netblock Analysis**
-Netcraft melacak kepemilikan IP (ASN, netblock) untuk mengidentifikasi semua server yang berjalan pada infrastruktur yang sama — bahkan jika server tersebut tidak terhubung langsung ke domain utama.
+Netcraft melacak kepemilikan IP (ASN, netblock) untuk mengidentifikasi semua server yang berjalan pada infrastruktur yang sama bahkan jika server tersebut tidak terhubung langsung ke domain utama.
 
 ## Cara Menggunakan Netcraft
 
@@ -115,13 +114,13 @@ Netcraft menampilkan subdomain dari CT logs. Manfaatkan untuk menemukan:
 IP yang ditemukan Netcraft, cross-check di Shodan untuk melihat port terbuka, service banner, dan CVE potensial.
 
 ### 3. **Analisis Uptime History untuk Mendeteksi Patch Cycle**
-Jika server restart setiap hari Minggu pukul 02:00 — itu jadwal maintenance. Serang di luar jadwal itu atau exploit sebelum patch diterapkan.
+Jika server restart setiap hari Minggu pukul 02:00 itu jadwal maintenance. Serang di luar jadwal itu atau exploit sebelum patch diterapkan.
 
 ### 4. **Identifikasi Shared Hosting**
 Netcraft bisa menunjukkan bahwa IP target digunakan oleh puluhan domain lain. Jika shared hosting, cari domain lain di IP yang sama yang mungkin lebih lemah.
 
 ### 5. **Perhatikan Perubahan Teknologi**
-Netcraft menyimpan history teknologi. Jika target berpindah dari Apache ke Nginx atau dari PHP ke Node.js — itu tanda migrasi infrastruktur yang mungkin menyisakan celah.
+Netcraft menyimpan history teknologi. Jika target berpindah dari Apache ke Nginx atau dari PHP ke Node.js itu tanda migrasi infrastruktur yang mungkin menyisakan celah.
 
 ### 6. **Find Related Sites**
 Gunakan fitur "Find other sites on the same IP address" untuk memperluas permukaan serangan.
@@ -157,14 +156,14 @@ Netcraft menampilkan tanggal expiry sertifikat. Sertifikat yang hampir kadaluars
 
 2. Subdomain ditemukan: `admin.example-bank.com`, `api.example-bank.com`, `dev.example-bank.com`
 
-3. Cross-check `admin.example-bank.com` di Netcraft → dapat informasi berbeda (Apache/2.4.41, PHP 7.4) — berarti server terpisah, attack surface baru.
+3. Cross-check `admin.example-bank.com` di Netcraft → dapat informasi berbeda (Apache/2.4.41, PHP 7.4) berarti server terpisah, attack surface baru.
 
 4. Cek "Sites on this IP" → 15 domain lain di IP yang sama, beberapa mungkin tidak seketat bank.
 
-Ini **recon passif murni** — target tidak pernah tahu bahwa infrastruktur mereka sedang dipetakan.
+Ini **recon passif murni** target tidak pernah tahu bahwa infrastruktur mereka sedang dipetakan.
 
-## Script
-- [Netcraft-Lite.py](../../script/Netcraft/index.md)
+## Script Python
+- [Script Python](../../script/Netcraft/index.md)
 
 [Previously](01GDorking.md) | [Next](../active/00Whois.md)
 

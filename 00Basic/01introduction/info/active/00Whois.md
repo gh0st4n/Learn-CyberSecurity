@@ -2,7 +2,7 @@
 
 ## Apa Itu Whois?
 
-**Whois** adalah protokol query/response berbasis TCP (port 43) yang digunakan untuk menanyakan database yang menyimpan informasi registrasi sumber daya internet — seperti domain, blok IP, dan ASN (Autonomous System Numbers). Database ini dikelola oleh **RIR (Regional Internet Registry)** dan **domain registrar**.
+**Whois** adalah protokol query/response berbasis TCP (port 43) yang digunakan untuk menanyakan database yang menyimpan informasi registrasi sumber daya internet seperti domain, blok IP, dan ASN (Autonomous System Numbers). Database ini dikelola oleh **RIR (Regional Internet Registry)** dan **domain registrar**.
 
 Informasi yang biasa didapat dari query whois meliputi:
 - Nama pemilik domain/alamat IP
@@ -144,14 +144,14 @@ Berikut diagram alur kerja whois secara umum:
 
 Dalam konteks penetration testing, whois digunakan pada fase **Reconnaissance / OSINT** untuk:
 
-1. **Mengidentifikasi infrastruktur target** — blok IP, ASN, netblock memungkinkan kita menemukan seluruh surface target
-2. **Social Engineering** — informasi kontak (email, telepon) bisa digunakan untuk phishing atau pretexting
-3. **Domain Discovery** — temukan domain lain yang dimiliki oleh organisasi yang sama dengan mencocokkan email atau nama registrant
-4. **Deteksi typosquatting** — cek domain yang mirip dengan domain target untuk campaign phising atau brand impersonation
-5. **Privasi registrant** — analisis apakah target menggunakan WHOIS privacy protection atau tidak; jika tidak, datanya bisa langsung dikumpulkan
+1. **Mengidentifikasi infrastruktur target** - blok IP, ASN, netblock memungkinkan kita menemukan seluruh surface target
+2. **Social Engineering** - informasi kontak (email, telepon) bisa digunakan untuk phishing atau pretexting
+3. **Domain Discovery** - temukan domain lain yang dimiliki oleh organisasi yang sama dengan mencocokkan email atau nama registrant
+4. **Deteksi typosquatting** - cek domain yang mirip dengan domain target untuk campaign phising atau brand impersonation
+5. **Privasi registrant** - analisis apakah target menggunakan WHOIS privacy protection atau tidak; jika tidak, datanya bisa langsung dikumpulkan
 
-## Script Python Sederhana
-[Script Simple Python](script/whois/index.md)
+## Script Python
+[Script Python](script/whois/index.md)
 
 [Previously](../pasive/02Netcraft.md) | [Next](01Dirb.md)
 

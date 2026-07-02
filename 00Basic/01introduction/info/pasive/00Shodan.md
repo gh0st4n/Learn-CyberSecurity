@@ -83,7 +83,7 @@ port:8080 country:ID product:Tomcat http.status:200
 ```
 → Semua server Apache Tomcat di Indonesia di port 8080 yang merespon HTTP 200
 
-### C. **Melalui CLI — `shodan` command-line tool**
+### C. **Melalui CLI - `shodan` command-line tool**
 
 **Instalasi:**
 ```bash
@@ -195,7 +195,7 @@ facets = api.count('nginx', facets=[('port', 10)])
 ### Query Optimization
 - **Gunakan facet dulu** sebelum download: `shodan stats --facets port,product 'nginx country:ID'` untuk tahu distribusi port/product
 - **Boolean logic**: Spasi = AND, `OR` bisa ditulis `||`, `NOT` = `-` (misal: `apache -nginx`)
-- **Filter net dulu**, baru product — lebih cepat: `net:103.10.0.0/16 product:Apache`
+- **Filter net dulu**, baru product - lebih cepat: `net:103.10.0.0/16 product:Apache`
 
 ### Recon Target Spesifik
 - **Cari subdomain**: `hostname:*.example.com`
@@ -324,7 +324,7 @@ ssl.cert.expired:true
 
 ## Catatan Etis & Legal
 
-Shodan adalah alat **OSINT (Open Source Intelligence)** — semua data yang diindeks adalah informasi publik yang dikirim oleh perangkat itu sendiri ke internet. Namun demikian, **akses dan pengujian terhadap perangkat yang terindeks tanpa izin adalah ilegal** di hampir semua yurisdiksi. Gunakan Shodan hanya untuk:
+Shodan adalah alat **OSINT (Open Source Intelligence)** semua data yang diindeks adalah informasi publik yang dikirim oleh perangkat itu sendiri ke internet. Namun demikian, **akses dan pengujian terhadap perangkat yang terindeks tanpa izin adalah ilegal** di hampir semua yurisdiksi. Gunakan Shodan hanya untuk:
 - **Security assessment** terhadap aset yang Anda miliki
 - **Bug bounty** pada program yang sah
 - **Penetration testing** dengan izin tertulis

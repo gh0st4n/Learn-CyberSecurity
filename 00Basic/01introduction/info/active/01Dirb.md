@@ -1,16 +1,16 @@
-
 # Dirb - Web Content Scanner
 
 **Dirb** adalah tools *web content scanner* yang digunakan untuk melakukan *brute-force directory* dan *file enumeration* pada web server. Tools ini bekerja dengan cara mengirimkan HTTP request ke target menggunakan wordlist, lalu menganalisis response code untuk menentukan apakah suatu direktori atau file ada atau tidak.
 ## Teknik yang Digunakan Dirb
 
-| Teknik | Keterangan |
-|---|---|
-| **Dictionary-based Brute-force** | Menggunakan wordlist berisi nama direktori/file umum |
-| **HTTP Response Code Analysis** | Membedakan kode respon (200 OK, 301 Redirect, 403 Forbidden, 404 Not Found, dll) |
-| **Recursive Scanning** | Menelusuri direktori yang ditemukan untuk scan lebih lanjut |
-| **Extension Bruteforce** | Mencoba berbagai ekstensi file (.php, .asp, .html, .txt, dll) |
-| **Threading** | Multi-thread untuk mempercepat proses scanning |
+| Teknik                       | Keterangan                                                                       |
+| ---------------------------- | -------------------------------------------------------------------------------- |
+| Dictionary-based Brute-force | Menggunakan wordlist berisi nama direktori/file umum                             |
+| HTTP Response Code Analysis  | Membedakan kode respon (200 OK, 301 Redirect, 403 Forbidden, 404 Not Found, dll) |
+| Recursive Scanning           | Menelusuri direktori yang ditemukan untuk scan lebih lanjut                      |
+| Extension Bruteforce         | Mencoba berbagai ekstensi file (.php, .asp, .html, .txt, dll)                    |
+| Threading                    | Multi-thread untuk mempercepat proses scanning                                   |
+
 ## Cara Install Dirb
 
 ### Di Kali Linux (sudah pre-installed biasanya)
@@ -19,22 +19,12 @@
 sudo apt update
 sudo apt install dirb -y
 ```
-
-### Install dari Source (opsional)
-
-```bash
-git clone https://salsa.debian.org/pkg-security-team/dirb
-cd dirb
-./configure
-make
-sudo make install
-```
-
 ### Di macOS (via Homebrew)
 
 ```bash
 brew install dirb
 ```
+
 ## Cara Menggunakan Dirb
 
 ### Basic Usage
@@ -96,6 +86,7 @@ dirb http://target.com/ -o hasil_scan.txt
 ```bash
 dirb http://target.com/ -p http://127.0.0.1:8080
 ```
+
 ## Alur Kerja Dirb
 
 ```
@@ -115,6 +106,7 @@ dirb http://target.com/ -p http://127.0.0.1:8080
             |
 [4] Tampilkan hasil ke terminal & simpan ke file
 ```
+
 ## Perbandingan Tools Sejenis
 
 | Tools | Bahasa | Kelebihan |
@@ -127,10 +119,10 @@ dirb http://target.com/ -p http://127.0.0.1:8080
 
 Script Python di atas hanyalah versi sederhana untuk tujuan edukasi. Dirb asli memiliki banyak fitur lanjutan seperti *recursive scanning*, *cookie handling*, *HTTP auth*, dan *pause/resume* yang tidak diimplementasikan di sini.
 
-## Script Simple Python
-- [simpledirb.py](../../script/Dirb/index.md)
+## Script Python
+- [Script Python](../../script/Dirb/index.md)
 
-[Previously](00Whois.md) | [Next]()
+[Previously](00Whois.md) | [Next](02Dirsearch.md)
 
 ---
 
