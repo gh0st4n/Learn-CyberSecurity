@@ -14,6 +14,7 @@
 			- [Code Python](00Basic/01introduction/script/GDork/index.py)
 		- [Netcraft](00Basic/01introduction/info/pasive/03Netcraft.md)
 			- [Code Python](00Basic/01introduction/script/Netcraft/index.py)
+		- [crt.sh](00Basic/01introduction/info/pasive/03crtsh.md)
 		- #**Active**
 		- [Whois](00Basic/01introduction/info/active/00whois.md)
 			- [Code Python](00Basic/01introduction/script/whois/index.md)

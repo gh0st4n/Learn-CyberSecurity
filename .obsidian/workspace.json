@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cbfca8d5fc63707e",
+        "id": "14ac3c6977649ed9",
         "type": "tabs",
         "children": [
           {
-            "id": "057120a7610ac565",
+            "id": "1f82538d39ff9079",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "00Basic/01introduction/TryHackMe/active.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "active"
             }
           }
         ]
@@ -179,24 +183,28 @@
       "bases:Create new base": false
     }
   },
-  "active": "3bf9ca496f326047",
+  "active": "1f82538d39ff9079",
   "lastOpenFiles": [
-    "00Basic/index.md",
-    "00Basic/01introduction/info/active/06wpscan.md",
+    "00Basic/01introduction/TryHackMe/pasive.md",
+    "00Basic/01introduction/TryHackMe/active.md",
     "00Basic/01introduction/info/active/05Nmap.md",
     "00Basic/01introduction/info/active/04DNS.md",
-    "00Basic/01introduction/info/active/03Dirhunt.md",
     "index.md",
-    "00Basic/01introduction/script/Dirb/index.md",
     "00Basic/01introduction/04Information-Gathering.md",
+    "00Basic/01introduction/info/pasive/03crtsh.md",
+    "00Basic/01introduction/info/pasive/02Netcraft.md",
+    "().md",
+    "00Basic/01introduction/info/active/03Dirhunt.md",
+    "00Basic/01introduction/info/active/00Whois.md",
+    "00Basic/index.md",
+    "00Basic/01introduction/info/active/06wpscan.md",
+    "00Basic/01introduction/script/Dirb/index.md",
     "00Basic/01introduction/03Step-Pentest.md",
     "00Basic/01introduction/02Profesi.md",
     "00Basic/01introduction/01Introduction.md",
     "00Basic/01introduction/info/pasive/00Shodan.md",
     "00Basic/01introduction/info/pasive/01GDorking.md",
-    "00Basic/01introduction/info/pasive/02Netcraft.md",
     "00Basic/01introduction/info/active/01Dirb.md",
-    "00Basic/01introduction/info/active/00Whois.md",
     "00Basic/01introduction/info/active/02Dirsearch.md",
     "00Basic/01introduction/script/DNS/index.md",
     "00Basic/01introduction/script/DNS/dns_dump.py",
@@ -207,14 +215,11 @@
     "info/active",
     "info",
     "00Basic/01introduction/script/Netcraft/index.md",
-    "00Basic/01introduction/script/GDork/GoogleDorking.md",
-    "().md",
     "00Basic/01introduction/script/Dirb/simpledirb.py",
     "00Basic/01introduction/script/Dirb",
     "00Basic/01introduction/script/GDork/dork.py~",
     "00Basic/01introduction/script/whois/python-whois.py~",
     "00Basic/01introduction/script/whois/whois.py~",
-    "00Basic/01introduction/script/Netcraft/netcraft_lite.py",
-    "00Basic/01introduction/info/active/03.md"
+    "00Basic/01introduction/script/Netcraft/netcraft_lite.py"
   ]
 }

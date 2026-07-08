@@ -153,7 +153,7 @@ Dalam konteks penetration testing, whois digunakan pada fase **Reconnaissance / 
 ## Script Python
 [Script Python](script/whois/index.md)
 
-[Previously](../pasive/02Netcraft.md) | [Next](01Dirb.md)
+[Previously](../pasive/03crtsh.md) | [Next](01Dirb.md)
 
 ---
 

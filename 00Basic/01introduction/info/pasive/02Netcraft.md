@@ -165,7 +165,7 @@ Ini **recon passif murni** target tidak pernah tahu bahwa infrastruktur mereka s
 ## Script Python
 - [Script Python](../../script/Netcraft/index.md)
 
-[Previously](01GDorking.md) | [Next](../active/00Whois.md)
+[Previously](01GDorking.md) | [Next](03crtsh.md)
 
 ---
 
